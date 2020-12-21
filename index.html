@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>todolist</title>
+    <link rel="stylesheet" href="stylesheet.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" 
+          integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc"
+          crossorigin="anonymous">
+    
+  </head>
+
+  <header>
+    <div class="content_width">
+        <h1><i class="fas fa-check-circle"></i>ToDo List</h1>
+    </div>
+  </header>
+
+  <body>
+    <div class="content_width">
+
+        <!-- 入力バー -->
+        <div class="search">
+            <input class="input_text" type="text">
+            <button class="btn btn_add">追加</button>
+        </div>
+
+        <!-- リスト一覧 -->
+        <ul class="list">
+            <!--example: 
+              <li class="todo todo_1">
+                <i class="fas fa-check-circle"></i>
+                <div class="div_1" style="display: inline;">猫舌を治す</div>
+                <button class="btn btn_delete">削除</button>
+                <button class="btn btn_edit">編集</button>
+              </li> -->
+        </ul>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
+
